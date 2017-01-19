@@ -1,0 +1,71 @@
+* {box-sizing: border-box;}
+
+body {
+	margin: 50px 0 0 0;
+	padding: 0;
+}
+
+h1 {
+	text-transform: uppercase;	
+	margin-top: 0;
+	padding-top: 30vh;	
+}
+
+h1 small {
+	color: #fff;	
+}
+
+.container {
+	max-width: 900px;	
+	margin: 0 auto;
+}
+
+.navbar {
+	border: 0;
+	background: #111;	
+}
+
+.navbar-toggle {
+	border: 0;	
+}
+
+.jumbotron {
+	height: 100vh;
+	background: url("http://famoustimes.co.uk/wp-content/uploads/2013/03/bg9.jpg");	
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+}
+
+.gallery {
+	margin: 20px 0 40px 0;	
+}
+
+.gallery .img-responsive {
+	margin: 0 auto;
+	margin-top: 20px;	
+}
+
+.article {
+	margin-bottom: 20px;	
+}
+
+.gallery2 [class*="col"] {
+	margin: 20px auto;	
+	text-align: center;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background: #111;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+footer h5 {
+	margin: 0;	
+	line-height: 40px;
+}
